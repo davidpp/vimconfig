@@ -1,4 +1,4 @@
-VVim Config with Git
+Vim Config with Git
 ======================================================================
 
 ## Submodule
@@ -28,6 +28,9 @@ git submodule update
 
 ## Upgrading a plugin
 Upgrading a plugin bundle at some point in the future, the fugitive plugin might be updated. To fetch the latest changes, go into the fugitive repository, and pull the latest version:
+<pre>
 cd ~/.vim/bundle/fugitive
 git pull
+</pre>
+
 
