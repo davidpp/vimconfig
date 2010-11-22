@@ -33,4 +33,4 @@ cd ~/.vim/bundle/fugitive
 git pull
 </pre>
 
-
+Source : [Vimcast](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
