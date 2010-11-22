@@ -2,9 +2,10 @@ set nocompatible
 syntax on
 filetype indent on
 filetype plugin on
-
-
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+
 
 " Minibuffer Explorer Settings
 let g:miniBufExplMapWindowNavVim = 1
