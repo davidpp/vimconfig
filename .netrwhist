@@ -1,9 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/david/Projects/first_app'
 let g:netrw_dirhist_2='/Users/david/Projects/academos_dev'
 let g:netrw_dirhist_3='/Users/david/Projects/first_app'
 let g:netrw_dirhist_4='/Users/david/Projects'
 let g:netrw_dirhist_5='/Users/david/Projects/academos_dev'
 let g:netrw_dirhist_6='/Users/david/Projects/sample_app'
-let g:netrw_dirhist_7='/Users/david/Projects/rails3-ujs-example'
