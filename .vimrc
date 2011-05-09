@@ -1,9 +1,12 @@
+filetype off
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+
 set nocompatible
 syntax on
 filetype indent on
 filetype plugin on
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 
 
 
@@ -63,6 +66,8 @@ set novisualbell  " No blinking .
 set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
 set cul " highlight current line
+
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 
 " macvim specific
 if has("gui_macvim")
